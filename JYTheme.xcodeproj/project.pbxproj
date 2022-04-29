@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D84E5DF2812FD990055E59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E5DE2812FD990055E59F /* AppDelegate.swift */; };
+		3D84E5E12812FD990055E59F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E5E02812FD990055E59F /* SceneDelegate.swift */; };
+		3D84E5E32812FD990055E59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E5E22812FD990055E59F /* ViewController.swift */; };
+		3D84E5E62812FD990055E59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D84E5E42812FD990055E59F /* Main.storyboard */; };
+		3D84E5E82812FD9B0055E59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D84E5E72812FD9B0055E59F /* Assets.xcassets */; };
+		3D84E5EB2812FD9B0055E59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D84E5E92812FD9B0055E59F /* LaunchScreen.storyboard */; };
+		3D84E5F62812FD9B0055E59F /* JYThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E5F52812FD9B0055E59F /* JYThemeTests.swift */; };
+		3D84E6002812FD9B0055E59F /* JYThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E5FF2812FD9B0055E59F /* JYThemeUITests.swift */; };
+		3D84E6022812FD9B0055E59F /* JYThemeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E6012812FD9B0055E59F /* JYThemeUITestsLaunchTests.swift */; };
+		3D84E60F2813C0E80055E59F /* JYCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E60E2813C0E80055E59F /* JYCompatible.swift */; };
+		3D84E6112813C1AE0055E59F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E6102813C1AE0055E59F /* UIColorExtension.swift */; };
+		3D84E61328144A990055E59F /* JYColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84E61228144A990055E59F /* JYColor.swift */; };
+		CBB9C3F39E3BF56A7724536F /* Pods_JYTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC433D1E15D3195B3F25273 /* Pods_JYTheme.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D84E5F22812FD9B0055E59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D84E5D32812FD990055E59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D84E5DA2812FD990055E59F;
+			remoteInfo = JYTheme;
+		};
+		3D84E5FC2812FD9B0055E59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D84E5D32812FD990055E59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D84E5DA2812FD990055E59F;
+			remoteInfo = JYTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D84E5DB2812FD990055E59F /* JYTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D84E5DE2812FD990055E59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D84E5E02812FD990055E59F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D84E5E22812FD990055E59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D84E5E52812FD990055E59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D84E5E72812FD9B0055E59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D84E5EA2812FD9B0055E59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D84E5EC2812FD9B0055E59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D84E5F12812FD9B0055E59F /* JYThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D84E5F52812FD9B0055E59F /* JYThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYThemeTests.swift; sourceTree = "<group>"; };
+		3D84E5FB2812FD9B0055E59F /* JYThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D84E5FF2812FD9B0055E59F /* JYThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYThemeUITests.swift; sourceTree = "<group>"; };
+		3D84E6012812FD9B0055E59F /* JYThemeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYThemeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D84E60E2813C0E80055E59F /* JYCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYCompatible.swift; sourceTree = "<group>"; };
+		3D84E6102813C1AE0055E59F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3D84E61228144A990055E59F /* JYColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYColor.swift; sourceTree = "<group>"; };
+		497E01B1E30D46C9EB217086 /* Pods-JYTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTheme.release.xcconfig"; path = "Target Support Files/Pods-JYTheme/Pods-JYTheme.release.xcconfig"; sourceTree = "<group>"; };
+		93878C528DAF071E27E310AD /* Pods-JYTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTheme.debug.xcconfig"; path = "Target Support Files/Pods-JYTheme/Pods-JYTheme.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC433D1E15D3195B3F25273 /* Pods_JYTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D84E5D82812FD990055E59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB9C3F39E3BF56A7724536F /* Pods_JYTheme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D84E5EE2812FD9B0055E59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D84E5F82812FD9B0055E59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EC139041963EB537655510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93878C528DAF071E27E310AD /* Pods-JYTheme.debug.xcconfig */,
+				497E01B1E30D46C9EB217086 /* Pods-JYTheme.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D84E5D22812FD990055E59F = {
+			isa = PBXGroup;
+			children = (
+				3D84E5DD2812FD990055E59F /* JYTheme */,
+				3D84E5F42812FD9B0055E59F /* JYThemeTests */,
+				3D84E5FE2812FD9B0055E59F /* JYThemeUITests */,
+				3D84E5DC2812FD990055E59F /* Products */,
+				22EC139041963EB537655510 /* Pods */,
+				42A0689660498988CFFEE4F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D84E5DC2812FD990055E59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D84E5DB2812FD990055E59F /* JYTheme.app */,
+				3D84E5F12812FD9B0055E59F /* JYThemeTests.xctest */,
+				3D84E5FB2812FD9B0055E59F /* JYThemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D84E5DD2812FD990055E59F /* JYTheme */ = {
+			isa = PBXGroup;
+			children = (
+				3D84E5DE2812FD990055E59F /* AppDelegate.swift */,
+				3D84E5E02812FD990055E59F /* SceneDelegate.swift */,
+				3D84E5E22812FD990055E59F /* ViewController.swift */,
+				3D84E60E2813C0E80055E59F /* JYCompatible.swift */,
+				3D84E61228144A990055E59F /* JYColor.swift */,
+				3D84E6102813C1AE0055E59F /* UIColorExtension.swift */,
+				3D84E5E42812FD990055E59F /* Main.storyboard */,
+				3D84E5E72812FD9B0055E59F /* Assets.xcassets */,
+				3D84E5E92812FD9B0055E59F /* LaunchScreen.storyboard */,
+				3D84E5EC2812FD9B0055E59F /* Info.plist */,
+			);
+			path = JYTheme;
+			sourceTree = "<group>";
+		};
+		3D84E5F42812FD9B0055E59F /* JYThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D84E5F52812FD9B0055E59F /* JYThemeTests.swift */,
+			);
+			path = JYThemeTests;
+			sourceTree = "<group>";
+		};
+		3D84E5FE2812FD9B0055E59F /* JYThemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D84E5FF2812FD9B0055E59F /* JYThemeUITests.swift */,
+				3D84E6012812FD9B0055E59F /* JYThemeUITestsLaunchTests.swift */,
+			);
+			path = JYThemeUITests;
+			sourceTree = "<group>";
+		};
+		42A0689660498988CFFEE4F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC433D1E15D3195B3F25273 /* Pods_JYTheme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D84E5DA2812FD990055E59F /* JYTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D84E6052812FD9B0055E59F /* Build configuration list for PBXNativeTarget "JYTheme" */;
+			buildPhases = (
+				0885D1AB491BDD19CAECFBAE /* [CP] Check Pods Manifest.lock */,
+				3D84E5D72812FD990055E59F /* Sources */,
+				3D84E5D82812FD990055E59F /* Frameworks */,
+				3D84E5D92812FD990055E59F /* Resources */,
+				4F8210CD4C4E134512430E5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYTheme;
+			productName = JYTheme;
+			productReference = 3D84E5DB2812FD990055E59F /* JYTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D84E5F02812FD9B0055E59F /* JYThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D84E6082812FD9B0055E59F /* Build configuration list for PBXNativeTarget "JYThemeTests" */;
+			buildPhases = (
+				3D84E5ED2812FD9B0055E59F /* Sources */,
+				3D84E5EE2812FD9B0055E59F /* Frameworks */,
+				3D84E5EF2812FD9B0055E59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D84E5F32812FD9B0055E59F /* PBXTargetDependency */,
+			);
+			name = JYThemeTests;
+			productName = JYThemeTests;
+			productReference = 3D84E5F12812FD9B0055E59F /* JYThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D84E5FA2812FD9B0055E59F /* JYThemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D84E60B2812FD9B0055E59F /* Build configuration list for PBXNativeTarget "JYThemeUITests" */;
+			buildPhases = (
+				3D84E5F72812FD9B0055E59F /* Sources */,
+				3D84E5F82812FD9B0055E59F /* Frameworks */,
+				3D84E5F92812FD9B0055E59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D84E5FD2812FD9B0055E59F /* PBXTargetDependency */,
+			);
+			name = JYThemeUITests;
+			productName = JYThemeUITests;
+			productReference = 3D84E5FB2812FD9B0055E59F /* JYThemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D84E5D32812FD990055E59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3D84E5DA2812FD990055E59F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3D84E5F02812FD9B0055E59F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3D84E5DA2812FD990055E59F;
+					};
+					3D84E5FA2812FD9B0055E59F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3D84E5DA2812FD990055E59F;
+					};
+				};
+			};
+			buildConfigurationList = 3D84E5D62812FD990055E59F /* Build configuration list for PBXProject "JYTheme" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D84E5D22812FD990055E59F;
+			productRefGroup = 3D84E5DC2812FD990055E59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D84E5DA2812FD990055E59F /* JYTheme */,
+				3D84E5F02812FD9B0055E59F /* JYThemeTests */,
+				3D84E5FA2812FD9B0055E59F /* JYThemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D84E5D92812FD990055E59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D84E5EB2812FD9B0055E59F /* LaunchScreen.storyboard in Resources */,
+				3D84E5E82812FD9B0055E59F /* Assets.xcassets in Resources */,
+				3D84E5E62812FD990055E59F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D84E5EF2812FD9B0055E59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D84E5F92812FD9B0055E59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0885D1AB491BDD19CAECFBAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JYTheme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8210CD4C4E134512430E5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JYTheme/Pods-JYTheme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JYTheme/Pods-JYTheme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JYTheme/Pods-JYTheme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D84E5D72812FD990055E59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D84E61328144A990055E59F /* JYColor.swift in Sources */,
+				3D84E60F2813C0E80055E59F /* JYCompatible.swift in Sources */,
+				3D84E5E32812FD990055E59F /* ViewController.swift in Sources */,
+				3D84E6112813C1AE0055E59F /* UIColorExtension.swift in Sources */,
+				3D84E5DF2812FD990055E59F /* AppDelegate.swift in Sources */,
+				3D84E5E12812FD990055E59F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D84E5ED2812FD9B0055E59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D84E5F62812FD9B0055E59F /* JYThemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D84E5F72812FD9B0055E59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D84E6002812FD9B0055E59F /* JYThemeUITests.swift in Sources */,
+				3D84E6022812FD9B0055E59F /* JYThemeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D84E5F32812FD9B0055E59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D84E5DA2812FD990055E59F /* JYTheme */;
+			targetProxy = 3D84E5F22812FD9B0055E59F /* PBXContainerItemProxy */;
+		};
+		3D84E5FD2812FD9B0055E59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D84E5DA2812FD990055E59F /* JYTheme */;
+			targetProxy = 3D84E5FC2812FD9B0055E59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D84E5E42812FD990055E59F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D84E5E52812FD990055E59F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D84E5E92812FD9B0055E59F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D84E5EA2812FD9B0055E59F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D84E6032812FD9B0055E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D84E6042812FD9B0055E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D84E6062812FD9B0055E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93878C528DAF071E27E310AD /* Pods-JYTheme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H35643SZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JYTheme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmart.lego.JYTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D84E6072812FD9B0055E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497E01B1E30D46C9EB217086 /* Pods-JYTheme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H35643SZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JYTheme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmart.lego.JYTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D84E6092812FD9B0055E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H35643SZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmart.lego.JYThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTheme.app/JYTheme";
+			};
+			name = Debug;
+		};
+		3D84E60A2812FD9B0055E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H35643SZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmart.lego.JYThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTheme.app/JYTheme";
+			};
+			name = Release;
+		};
+		3D84E60C2812FD9B0055E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H35643SZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmart.lego.JYThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JYTheme;
+			};
+			name = Debug;
+		};
+		3D84E60D2812FD9B0055E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H35643SZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmart.lego.JYThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JYTheme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D84E5D62812FD990055E59F /* Build configuration list for PBXProject "JYTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D84E6032812FD9B0055E59F /* Debug */,
+				3D84E6042812FD9B0055E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D84E6052812FD9B0055E59F /* Build configuration list for PBXNativeTarget "JYTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D84E6062812FD9B0055E59F /* Debug */,
+				3D84E6072812FD9B0055E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D84E6082812FD9B0055E59F /* Build configuration list for PBXNativeTarget "JYThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D84E6092812FD9B0055E59F /* Debug */,
+				3D84E60A2812FD9B0055E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D84E60B2812FD9B0055E59F /* Build configuration list for PBXNativeTarget "JYThemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D84E60C2812FD9B0055E59F /* Debug */,
+				3D84E60D2812FD9B0055E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D84E5D32812FD990055E59F /* Project object */;
+}

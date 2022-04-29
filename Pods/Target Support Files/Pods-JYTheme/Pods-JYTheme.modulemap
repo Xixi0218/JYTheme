@@ -1,0 +1,6 @@
+framework module Pods_JYTheme {
+  umbrella header "Pods-JYTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
