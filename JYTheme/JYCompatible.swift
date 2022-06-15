@@ -35,9 +35,9 @@ public struct JYTheme {
 }
 
 @dynamicMemberLookup
-public class JYThemeReactive<Base> {
+public class JYThemeReactive<Base: JYThemeReactiveCompatible> {
     
-    public let base: Base
+    private unowned let base: Base
     
     public private(set) var bmDisposedBag: DisposeBag = DisposeBag()
     
@@ -78,7 +78,7 @@ public class JYThemeReactive<Base> {
 
 fileprivate var JYThemeReactiveKey = "JYThemeReactiveKey"
 
-public protocol JYThemeReactiveCompatible {}
+public protocol JYThemeReactiveCompatible: AnyObject {}
 
 public extension JYThemeReactiveCompatible {
     
