@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  JYTheme
+
+  Created by keyon on 2022/11/5.
+  
+*/
+
+"bitmart_test" = "test";
+"bitmart_hello" = "hello";
+"bitmart_world" = "world";
