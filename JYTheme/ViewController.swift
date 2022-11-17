@@ -57,9 +57,9 @@ class ViewController: UIViewController {
     private lazy var localLabel: UILabel = {
         let label = UILabel()
         label.l10n.attributedText = KYLocalizerAttributeBuilder {
-            "bitmart_test".localized().ky.foregroundColor(KYColor(darkColor: .white, lightColor: .gray).currentThemeColor())
-            "bitmart_hello".localized().ky.foregroundColor(KYColor(darkColor: .red, lightColor: .blue).currentThemeColor())
-            "bitmart_world".localized().ky.foregroundColor(KYColor(darkColor: .orange, lightColor: .yellow).currentThemeColor())
+            "bitmart_test".localized().ky.foregroundColor(KYColor(darkColor: .white, lightColor: .gray).currentThemeColor)
+            "bitmart_hello".localized().ky.foregroundColor(KYColor(darkColor: .red, lightColor: .blue).currentThemeColor)
+            "bitmart_world".localized().ky.foregroundColor(KYColor(darkColor: .orange, lightColor: .yellow).currentThemeColor)
         }
         return label
     }()

@@ -11,7 +11,7 @@ public struct KYColor {
     var darkColor: UIColor
     var lightColor: UIColor
 
-    public func currentThemeColor() -> UIColor {
-        KYTheme.current == .day ? lightColor : darkColor
+    var currentThemeColor: UIColor {
+        return KYTheme.current == .day ? lightColor : darkColor
     }
 }
